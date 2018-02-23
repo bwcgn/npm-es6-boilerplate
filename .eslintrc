@@ -1,0 +1,10 @@
+{
+  "parser": "babel-eslint",
+  "extends": "standard",
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+    "import/prefer-default-export": 0
+  }
+}
