@@ -1,4 +1,5 @@
-var lib = require('../lib/defaultModule')
+var HelloWorld = require('../src/defaultModule')
 
-var k = lib.defaultFunction(1, 2)
-console.log(k) // k === 3
+let p = new HelloWorld('test')
+
+console.log(p) // k === 3

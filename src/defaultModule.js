@@ -1,10 +1,22 @@
-/**
- *
- *   aware of usage `export default` for commonjs modules
- *   according to specs of new es6 modules `export default <Statement>`
- *   will be available in commonjs under `require('module').default` name
- *   it will not work as `require('module')`
- */
-export function defaultFunction (a, b) {
-  return a + b
+'use strict'
+
+/** Class named Hello World. */
+export default class HelloWorld {
+  /**
+   * Create Hello World.
+   * @param {String} name - Name the world.
+   */
+  constructor (name) {
+    this.name = name || 'hello hello'
+  }
+
+  /**
+   * This function returns the sum of 2 numbers.
+   * @param {number} a any number
+   * @param {number} b any other number
+   * @returns {number} sum of both numbers.
+   */
+  calcTest (a, b) {
+    return a + b
+  }
 }
