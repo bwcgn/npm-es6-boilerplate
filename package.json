@@ -4,7 +4,7 @@
   "description": "Boilerplate for ES6 npm modules.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bastian-w/npm-es6-boilerplate"
+    "url": "https://github.com/bwcgn/npm-es6-boilerplate"
   },
   "main": "./lib/index.js",
   "module": "./src/index.js",
